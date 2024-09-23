@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  canvas {
+    background: white;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 0 auto;
+  }
+#playButton, #restartButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#playButton:hover, #restartButton:hover {
+    background-color: #45a049;
+}
+#restartButton {
+    display: none;
+}
+
+img{
+    display: none;
+}
+
+button-holder{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+}

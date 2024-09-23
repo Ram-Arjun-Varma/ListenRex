@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Listening Dino">
+    <meta name="description"
+      content="Chrome dino game but the dino jumps when you say UP!!!.">
+    <meta name="keywords"
+      content="web developer, full-stack developer, 2D game development, 3D game development, AI solutions, responsive websites, JavaScript, Tailwind CSS, SQL, mobile development, AI-powered apps, innovative web design, portfolio, game developer, creative developer, upskilling in tech, front-end developer, back-end developer, modern web development, database visualization, chatbot development">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Ram Arjun Varma">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Dino Game with Speech Command Recognition</h1>
+    <h3>Say UP to make the Dino Jump.</h3>
+    <canvas id="gameCanvas" width="800" height="200"></canvas>
+    <div id="button-holder">
+        <button id="playButton" onclick="startGame()">Play</button>
+        <button id="restartButton" onclick="restartGame()">Restart Game</button>
+    </div>
+    <img id="dino" src="img/trex.png"/>
+    <img id="cactus" src="img/cactus.png"/>
+
+    <!-- TensorFlow.js and Speech Commands model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
